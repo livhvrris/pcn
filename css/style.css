@@ -35,8 +35,8 @@ main {
 }
 
 .nav-logo {
-  font-family: 'Lato', sans-serif;
-  font-weight: 200;
+  font-family: 'Moderna', sans-serif;
+  font-size: 2.9rem;
 }
 
 #ideaCard {
@@ -75,7 +75,18 @@ main {
  color: #000;
 }
 
+/* Moderna Font */
+.pcn-moderna {
+  font-family: 'Moderna', sans-serif;
+}
 
+@font-face {
+ font-family: 'Moderna';
+  src: url(./fonts/moderna/Moderna_.ttf);
+}
+
+
+/* *********************************** */
 
 
 p {
