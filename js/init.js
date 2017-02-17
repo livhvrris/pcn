@@ -1,3 +1,8 @@
+$(document).ready(function(){
+  $('.parallax').parallax();
+});
+      
+
 (function($){
   $(function(){
 
@@ -6,6 +11,7 @@
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
+
 
 
 // capture window scroll size
