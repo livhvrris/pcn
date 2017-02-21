@@ -1,5 +1,6 @@
 $(document).ready(function(){
   $('.parallax').parallax();
+  $(".button-collapse").sideNav();
 });
       
 
@@ -13,6 +14,7 @@ $(document).ready(function(){
 })(jQuery); // end of jQuery name space
 
 
-
 // capture window scroll size
 // if size is xxxx make lead section xxx
+
+
