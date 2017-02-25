@@ -6,6 +6,15 @@
  * Made By MaterializeCSS.com
  */
 
+@font-face {
+    font-family: 'modernaregular';
+    src: url('../fonts/moderna/moderna-webfontkit/moderna_-webfont.woff2') format('woff2'),
+         url('../fonts/moderna/moderna-webfontkit/moderna_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* General */
 body {
   font-family: 'Lato', sans-serif;
@@ -35,8 +44,9 @@ main {
 }
 
 .nav-logo {
-  font-family: 'Moderna', sans-serif;
+  font-family: 'modernaregular', sans-serif;
   font-size: 2.9rem;
+  letter-spacing: -0.075em;
 }
 
 #ideaCard {
@@ -88,13 +98,13 @@ main {
 
 /* Moderna Font */
 .pcn-moderna {
-  font-family: 'Moderna', sans-serif;
+  font-family: 'modernaregular', sans-serif;
 }
 
-@font-face {
+/*@font-face {
  font-family: 'Moderna';
   src: url(./fonts/moderna/Moderna_.ttf);
-}
+}*/
 
 
 /* *********************************** */
