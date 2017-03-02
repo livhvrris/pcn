@@ -10,6 +10,7 @@
   <!-- Font(s) -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+  <script src="https://use.fontawesome.com/e6a19d2877.js"></script>
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
   <!-- Custom CSS -->
@@ -31,6 +32,7 @@
         <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons white-text">menu</i></a>
 
         <ul class="right hide-on-med-and-down">
+          <li class="nav-channel"><a class="tab-active" href="./nightlife/freshforlife.html" target="_blank"><strong>#FreshForLife</strong></a></li>
           <li class="nav-channel"><a href="about.html">About</a></li>
           <li class="nav-channel"><a href="work.html">Work</a></li>
           <li class="nav-channel"><a href="contact.html">Contact</a></li>
@@ -41,6 +43,7 @@
     </div>
 
     <ul class="side-nav" id="mobile-demo">
+      <li class="nav-channel"><a class="tab-active" href="./nightlife/freshforlife.html" target="_blank"><strong>#FreshForLife</strong></a></li>
       <li class="nav-channel white-text"><a href="about.html">About</a></li>
       <li class="nav-channel white-text"><a href="work.html">Work</a></li>
       <li class="nav-channel white-text"><a href="contact.html">Contact</a></li>
@@ -53,34 +56,36 @@
     <div class="container">
       <div class="row">&nbsp;</div> <!-- === VERTICAL SPACER === -->
 
-        <div class="col s12 m7">
-          <div class="card horizontal small">
-            <div class="card-image">
-              <img src="assets/images/work-banner-nightlife.png">
-            </div>
-            <div class="card-stacked">
-              <div class="card-content">
-                <h5><span class="pcn-moderna">business</span> + <span class="pcn-moderna">press</span></h5>
-                <p style="font-weight: 300;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius odio ut sapien fermentum, et finibus lectus egestas. Etiam eu dolor iaculis, aliquet erat convallis, pretium justo. Curabitur vel felis at nibh dapibus placerat et eu sem. Vestibulum lobortis fermentum porttitor. Curabitur bibendum lorem vitae auctor convallis.</p>
-              </div>
-              <div class="card-action">
-              <span style="font-weight:300; color:black; text-transform: lowercase;"><b>EMAIL</b>: </span><a href="mailto:info@princecharlesnightlife.com" style="color:red; text-transform: lowercase;">info@princecharlesnightlife.com</a>
-              <br>
-              <span style="font-weight:300; color:black; text-transform: lowercase;"><b>CALL</b>: </span><a style="color:red;">310.846.9013</a>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <div class="col s12 m7">
-          <div class="card horizontal small">
-            <div class="card-image">
-              <img src="assets/images/work-banner-music.png">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="work-image activator" src="assets/images/contact-us-ffl-banner.jpg">
             </div>
-            <div class="card-stacked">
-              <div class="card-content">
-                <h5><span class="pcn-moderna">talent</span> + <span class="pcn-moderna">booking</span></h5>
-                <p style="font-weight: 300;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius odio ut sapien fermentum, et finibus lectus egestas. Etiam eu dolor iaculis, aliquet erat convallis, pretium justo. Curabitur vel felis at nibh dapibus placerat et eu sem. Vestibulum lobortis fermentum porttitor. Curabitur bibendum lorem vitae auctor convallis.</p>
+            <div class="card-content">
+            <div class="row">&nbsp;</div> <!-- === VERTICAL SPACER === -->
+
+              <h5 style="font-weight: 300;"><span class="pcn-moderna">email us</span>: <a href="mailto:info@princecharlesnightlife.com" style="color:grey; text-transform: lowercase;">info@princecharlesnightlife.com</a></h5>
+
+      <div class="row">&nbsp;</div> <!-- === VERTICAL SPACER === -->
+              <div>
+                <div class="row">
+                  <div class="col s12">
+                    <h5 class="pcn-moderna">stay in the loop:</h5>
+                    <h6 class="left-align light">Exclusive content, freebies,  offers and more straight to your inbox.</h6>
+                  </div>
+                </div>
+
+                <div class="row">
+                <div class="col s12">
+                  <form>
+                    <button class="btn-submit" type="submit" name="action" for="email">Submit</button>  
+                    <div class="input-field" style="overflow: hidden;">
+                      <input id="email" type="email" class="validate" placeholder="Enter your email address" style="width: 100%; border-style: solid;">
+                    </div>
+                  </form>
+                </div>
+                </div>
               </div>
             </div>
           </div>
@@ -94,12 +99,17 @@
   </main>
 
   <!-- === FOOTER === --> 
-  <footer class="page-footer grey darken-3">
+   <footer class="page-footer grey darken-3">
 
     <div class="footer-copyright grey darken-4">
       <div class="container">
-      &#169; PRINCECHARLES NIGHTLIFE, LLC 2017. All Rights Reserved.
-      <a class="grey-text text-lighten-4 right" href="#!">[Social Icons]</a>
+      <a class="grey-text text-lighten-4" style="font-size: 10px;">&#169; PRINCECHARLES NIGHTLIFE, LLC 2017. All Rights Reserved.</a>
+      <div class="right">
+        <a alt="twitter" href="https://twitter.com/pcn_nightlife" target="_blank"><i class="fa fa-twitter grey-text text-lighten-4" aria-hidden="true"></i></a>
+        <a alt="instagram" href="https://www.instagram.com/pcnnightlife/" target="_blank"><i class="fa fa-instagram grey-text text-lighten-4" aria-hidden="true"></i></a>
+        <a alt="facebook" href="https://www.facebook.com/PrinceCharlesNightlife" target="_blank"><i class="fa fa-facebook grey-text text-lighten-4" aria-hidden="true"></i></a>
+      </ul>
+      </div>
 
       </div>
     </div>

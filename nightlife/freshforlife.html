@@ -10,6 +10,7 @@
   <!-- Font(s) -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+  <script src="https://use.fontawesome.com/e6a19d2877.js"></script>
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
   <!-- Custom CSS -->
@@ -24,43 +25,44 @@
   <header>
 
     <div class="navbar-fixed">
-      <nav class="black" role="navigation">
-        <div class="nav-wrapper container">
+    <nav class="black" role="navigation">
+      <div class="nav-wrapper container">
 
-          <a id="logo-container" href="index.html" class="nav-logo">pcn</a> <!-- class="brand-logo" -->
-          <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons white-text">menu</i></a>
+        <a id="logo-container" href="index.html" class="nav-logo">pcn</a> <!-- class="brand-logo" -->
+        <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons white-text">menu</i></a>
 
-          <ul class="right hide-on-med-and-down">
-            <li class="nav-channel"><a href="../about.html">About</a></li>
-            <li class="nav-channel"><a href="../work.html">Work</a></li>
-            <li class="nav-channel"><a href="../contact.html">Contact</a></li>
-          </ul>
+        <ul class="right hide-on-med-and-down">
+          <li class="nav-channel"><a class="tab-active" href="#!" target="_blank"><strong>#FreshForLife</strong></a></li>
+          <li class="nav-channel"><a href="../about.html">About</a></li>
+          <li class="nav-channel"><a href="../work.html">Work</a></li>
+          <li class="nav-channel"><a href="../contact.html">Contact</a></li>
+        </ul>
 
-        </div>
-      </nav>
+      </div>
+    </nav>
     </div>
 
     <ul class="side-nav" id="mobile-demo">
+      <li class="nav-channel"><a class="tab-active" href="#!" target="_blank"><strong>#FreshForLife</strong></a></li>
       <li class="nav-channel white-text"><a href="../about.html">About</a></li>
       <li class="nav-channel white-text"><a href="../work.html">Work</a></li>
       <li class="nav-channel white-text"><a href="../contact.html">Contact</a></li>
     </ul>
 
   </header>
-
   <!-- === MAIN BODY === --> 
   <main>
 
-    <div class="parallax-container">
+    <!-- === SECTION ONE === -->   
+    <div class="parallax-container valign-wrapper">
 
       <div class="section no-pad-bot">
         <div class="container">
 
-
-
           <div class="row center">
-            <h2 style="font-weight: 200; padding-top:80px;">ELEVATE YOUR TASTE LEVEL</h2>
-            <p>Experience more with a community and resources at your disposal <br>with a all-in-one solution from nightlife entertainment to services to help grow your business.</p>
+            <h2 style="font-weight: 200;">ELEVATE YOUR TASTE LEVEL</h2>
+
+            <p class="hide-on-med-and-down">Experience more with a community and resources at your disposal <br>with a all-in-one solution from nightlife entertainment to services to help grow your business.</p>
           </div>
 
 
@@ -71,37 +73,67 @@
 
     </div>
 
+    <!-- === SECTION TWO === -->   
     <div class="container">
       <div class="section col">
 
-        <div class="row" style="padding-top: 40px; padding-bottom: 40px; padding-left: 50px; padding-right: 50px;">
-<!--           <div class="col s12 center"><img src="assets/images/logo-black.png" height="200px" alt="PCN Logo"> -->
+
+        <div class="row hide-on-med-and-down" style="padding-top: 40px; padding-bottom: 40px; padding-left: 50px; padding-right: 50px;">
+
+          <div class="col s6">
             <h5 class="pcn-moderna">stay in the loop:</h5>
-            <h6 class="left-align light">Exclusive content, freebies,  offers and more straight to your inbox. <span class="right"><b>[Email Box + Button]</b></span></h6>
+            <h6 class="left-align light">Exclusive content, freebies,  offers and more straight to your inbox.</h6>
+          </div>
+
+          <div class="col s6">
+            <form>
+              <button class="btn-submit" type="submit" name="action" for="email">Submit</button>  
+              <div class="input-field" style="overflow: hidden;">
+                <input id="email" type="email" class="validate" placeholder="Enter your email address" style="width: 100%;">
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+        <div class="hide-on-large-only" style="padding-top: 20px; padding-bottom: 20px; padding-left: 25px; padding-right: 25px;">
+              <br>
+          <div class="row">
+            <div class="col s12">
+              <h5 class="pcn-moderna">stay in the loop:</h5>
+              <h6 class="left-align light">Exclusive content, freebies,  offers and more straight to your inbox.</h6>
+            </div>
+          </div>
+
+          <div class="row">
+          <div class="col s12">
+            <form>
+              <button class="btn-submit" type="submit" name="action" for="email">Submit</button>  
+              <div class="input-field" style="overflow: hidden;">
+                <input id="email" type="email" class="validate" placeholder="Enter your email address" style="width: 100%;">
+              </div>
+            </form>
+          </div>
+          </div>
+
+        </div>
+
+        <div class="container hide-on-large-only" style="padding-top: 20px; padding-bottom: 20px; padding-left: 25px; padding-right: 25px;">
+          <div class="col s12">
+            <div class="row center">
+              <hr>
+              <br>
+              <p class="light">Experience more with a community and resources at your disposal with a all-in-one solution from nightlife entertainment to services to help grow your business.</p>
+              <br>
+              <hr>
+            </div>
           </div>
         </div>
 
       </div>
     </div>
- <!--    <div class="parallax-container valign-wrapper">
-      <div class="section no-pad-bot">
-        <div class="container">
-          <div class="row center">
 
-            <h5 class="white-text" style="font-family: 'Lato', sans-serif; font-weight: 400; text-transform: uppercase;">ELEVATE YOUR TASTE LEVEL</h5>
-            <p>Experience more with a community and resources at your disposal with an all-in-one solution from nighlife entertainment to services that help grow your business.</p>
-          </div>
-        </div>
-      </div>
-      <div class="parallax"><img src="../assets/images/ffl-web-banner-second.jpg" alt="PCN #FFL Banner"></div>
-
-      <div class="valign-container section">
-        <h5 style="font-family: 'Lato', sans-serif; font-weight: 300; text-transform: uppercase;">Stay in the loop</h5>
-        <p>Exclusive content, freebies, offers and more, straight to your inbox.</p>
-      </div>
-
-    </div>
- -->
+    <!-- === SECTION THREE === -->  
     <div class="video-container">
 
       <div style="z-index: 1; position: absolute; top: 0px; left: 0px;">
@@ -122,28 +154,28 @@
         <div class="row">
           <div class="col s12 m4">
             <div class="icon-block">
-              <!--               <h2 class="center black-text"><i class="material-icons">flash_on</i></h2> -->
-              <h5 class="center pcn-moderna">pcn nightlife</h5>
+<!--               <h2 class="center black-text"><i class="material-icons">flash_on</i></h2> -->
+              <h5 class="center pcn-moderna"><span style="letter-spacing: -0.075em;">pcn</span> nightlife</h5>
 
-              <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius odio ut sapien fermentum, et finibus lectus egestas. Etiam eu dolor iaculis, aliquet erat convallis, pretium justo. Curabitur vel felis at nibh dapibus placerat et eu sem. Vestibulum lobortis fermentum porttitor. Curabitur bibendum lorem vitae auctor convallis.</p>
+              <p class="light">We work with top venues in the hospitality industry including nightclubs, hotels and restaurants. Enjoy an elevated experience exuding a different ambiance within a variety of unique event properties we represent that stuns even the most discerning partygoers and trendsetters.</p>
             </div>
           </div>
 
           <div class="col s12 m4">
             <div class="icon-block">
-              <!--               <h2 class="center black-text"><i class="material-icons">group</i></h2> -->
-              <h5 class="center pcn-moderna">pcn music</h5>
+<!--               <h2 class="center black-text"><i class="material-icons">group</i></h2> -->
+              <h5 class="center pcn-moderna"><span style="letter-spacing: -0.075em;">pcn</span> music</h5>
 
-              <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius odio ut sapien fermentum, et finibus lectus egestas. Etiam eu dolor iaculis, aliquet erat convallis, pretium justo. Curabitur vel felis at nibh dapibus placerat et eu sem. Vestibulum lobortis fermentum porttitor. Curabitur bibendum lorem vitae auctor convallis.</p>
+              <p class="light">PCN Music is all about a community that’s curated with the world’s most talented artist and DJ’s. Whether you are an aspiring artist or just a music lover, the power of our music community is invaluable.</p>
             </div>
           </div>
 
           <div class="col s12 m4">
             <div class="icon-block">
-              <!--               <h2 class="center black-text"><i class="material-icons">settings</i></h2> -->
+<!--               <h2 class="center black-text"><i class="material-icons">settings</i></h2> -->
               <h5 class="center pcn-moderna">the loop</h5>
 
-              <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius odio ut sapien fermentum, et finibus lectus egestas. Etiam eu dolor iaculis, aliquet erat convallis, pretium justo. Curabitur vel felis at nibh dapibus placerat et eu sem. Vestibulum lobortis fermentum porttitor. Curabitur bibendum lorem vitae auctor convallis.</p>
+              <p class="light">Elevate your taste level with insider offers, exclusive invites, and customized experiences across dozens of our partner companies and venues. Members of THE LOOP will benefit from year-round access to unique and customized pcn experiences. It’s a one stop resource center for all your nightlife inspiration whenever you need it.</p>
             </div>
           </div>
         </div>
@@ -161,7 +193,7 @@
           </div>
         </div>
       </div>
-      <div class="parallax"><img src="../assets/images/ffl-web-banner-first.jpg" alt="PCN #FFL Banner"></div>
+      <div class="parallax"><img src="../assets/images/ffl-web-banner-first-dim.jpg" alt="PCN #FFL Banner"></div>
     </div>
   </main>
 
@@ -169,8 +201,14 @@
   <footer class="page-footer grey darken-3">
     <div class="footer-copyright grey darken-4">
       <div class="container">
-        &#169; PRINCECHARLES NIGHTLIFE, LLC 2017. All Rights Reserved.
-        <a class="grey-text text-lighten-4 right" href="#!">[Social Icons]</a>
+      <a class="grey-text text-lighten-4" style="font-size: 10px;">&#169; PRINCECHARLES NIGHTLIFE, LLC 2017. All Rights Reserved.</a>
+      <div class="right">
+        <a alt="twitter" href="https://twitter.com/pcn_nightlife" target="_blank"><i class="fa fa-twitter grey-text text-lighten-4" aria-hidden="true"></i></a>
+        <a alt="instagram" href="https://www.instagram.com/pcnnightlife/" target="_blank"><i class="fa fa-instagram grey-text text-lighten-4" aria-hidden="true"></i></a>
+        <a alt="facebook" href="https://www.facebook.com/PrinceCharlesNightlife" target="_blank"><i class="fa fa-facebook grey-text text-lighten-4" aria-hidden="true"></i></a>
+      </ul>
+      </div>
+
       </div>
     </div>
   </footer>

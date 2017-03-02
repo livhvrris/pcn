@@ -16,5 +16,3 @@ $(document).ready(function(){
 
 // capture window scroll size
 // if size is xxxx make lead section xxx
-
-
